@@ -1,0 +1,54 @@
+<!-- view that displays a new user registration form  -->
+
+{{> welcomemenu id="signup"}}
+
+<form class="ui stacked segment form" action="/register" method="POST">
+  <h3 class="ui header">Register</h3>
+  
+  <div class="two fields">
+    <div class="field">
+      <label>First Name</label>
+      <input placeholder="First Name" type="text"  name="firstName">
+    </div>
+    <div class="field">
+      <label>Last Name</label>
+      <input placeholder="Last Name" type="text"  name="lastName">
+    </div>
+  </div>
+  
+  <div class="field">
+      <label>Address</label>
+      <input placeholder="Address" type="text"  name="address">
+  </div>
+  
+  <div class="field">
+      <label>Gender</label>
+      <select class="ui fluid dropdown">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+  </div>
+  
+  <div class="field">
+    <label>Email</label>
+    <input placeholder="Email" type="text" name="email">
+  </div>
+  
+  <div class="field">
+    <label>Password</label>
+    <input type="password" name="password">
+  </div>
+  
+  <div class="two fields">
+    <div class="field">
+      <label>Starting Weight</label>
+      <input placeholder="00.00kg" type="text"  name="startingweight">
+    </div>
+    <div class="field">
+      <label>Height</label>
+      <input placeholder="00.00cm" type="text"  name="height">
+    </div>
+  </div>
+  
+  <button class="ui blue submit button">Submit</button>
+</form>

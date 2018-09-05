@@ -1,0 +1,111 @@
+<!--  view that displays user assessments to a trainer-->
+
+{{> trainer-menu }} 
+
+<section class="ui raised segment">
+        <header class="ui header" style="text-align:center;">
+            <div class="ui grid">
+                <div class="six wide column">
+                    <p>
+                       <i class="user icon" style="color:dimgray; font-size:40px; padding:10px;"></i>
+                    </p>
+                    <p>
+                       I didn't get this to work
+                    </p>
+                </div>
+                <div class="four wide column">
+                    <p>
+                    <i class="heartbeat icon" style="color:red; font-size:40px; padding:10px;"></i>
+                    </p>
+                    <p>
+                       I didn't get this to work
+                    </p>
+                </div>
+                <div class="six wide column">
+                    <p>
+                      <i class="user doctor icon" style="color:green; font-size:40px; padding:10px;"></i>
+                    </p>
+                    <p>
+                       I didn't get this to work
+                    </p>
+                </div>
+            </div>
+        </header>
+    </section>
+
+{{#each assessment.memberAssessments}}
+ 
+ <table class= "ui celled padded table" style="text-align:center">
+  <tbody>
+     <thead>
+    <tr>
+      <th>Date</th>
+      <th>Weight</th>
+      <th>Chest</th>
+      <th>Thigh</th>
+      <th>Upper Arm</th>
+      <th>Waist</th>
+      <th>Hips</th>
+      <th>Remove Assessment</th>
+    </tr>
+    
+  </thead>
+      <tr>
+        <td>
+          {{date}}
+        </td>
+        <td>
+          {{weight}}
+        </td>
+        <td>
+          {{chest}}
+        </td>
+        <td>
+          {{thigh}}
+        </td>
+        <td>
+          {{upperArm}}
+        </td>
+        <td>
+          {{waist}}
+        </td>
+        <td>
+          {{hips}}
+        </td>
+        <td>
+          <p>
+            I didn't get this to work
+          </p>
+          <a href="/assessment/{{../assessmentList.id}}/deleteassessment/{{id}}" class="ui icon button">
+            <i class="icon trash"></i>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        
+     </tr>
+    </tbody>
+  </table>
+  
+
+  <table class= "ui celled padded table" style="text-align:center">
+    <tbody>
+      <thead>
+        <tr>
+          <th>Comments</th>
+        </tr>
+      </thead>
+      
+      <tr>
+          <td>{{comments}}</td>
+      </tr>
+    
+    </tbody>
+    
+ </table>
+
+  {{> add-comment}}
+
+{{/each}}
+  
+

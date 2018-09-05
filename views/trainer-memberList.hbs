@@ -1,0 +1,41 @@
+<!-- view that displays the members of the gym to a trainer -->
+
+{{> trainer-menu }}
+
+{{#each members}}
+ 
+ <table class= "ui celled padded table" style="text-align:center">
+  <tbody>
+     <thead>
+    <tr>
+      <th>First Name</th>
+      <th>Surname</th>
+      <th>address</th>
+      <th>Gender</th>
+      <th>Delete Member</th>
+    </tr>
+  </thead>
+      <tr>
+        <td>
+          {{firstName}}
+        </td>
+        <td>
+          {{lastName}}
+        </td>
+        <td>
+          {{address}}
+        </td>
+        <td>
+          {{gender}}
+        </td>
+        <td>
+          <a href="/assessment/{{../assessmentList.id}}/deleteassessment/{{id}}" class="ui icon button">
+            <i class="icon trash"></i>
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+{{/each}}
+  

@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "address": "springfield",
+      "gender": "male",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "startingweight": "120.00kg",
+      "height": "202cm",
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
+    },
+    {
+      "firstName": "marge",
+      "lastName": "simpson",
+      "address": "springfield",
+      "gender": "female",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "startingweight": "180.10kg",
+      "height": "190cm",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
+    },
+    {
+      "firstName": "Edward",
+      "lastName": "Mc Evoy",
+      "address": "Kilkenny",
+      "gender": "male",
+      "email": "tony@gmail.com",
+      "password": "secret",
+      "startingweight": "90.00kg",
+      "height": "200.00cm",
+      "id": "bdb50d4a-6448-4b4a-9d24-d59300d6aabb"
+    },
+    {
+      "firstName": "Caroline",
+      "lastName": "Mc Evoy",
+      "address": "Desart, Cuffesgrange",
+      "email": "caroline@gmail.com",
+      "password": "secret",
+      "startingweight": "65",
+      "height": "170cm",
+      "id": "5c2f612f-4fff-45a8-8431-f0ebbe94b57e"
+    }
+  ]
+}
