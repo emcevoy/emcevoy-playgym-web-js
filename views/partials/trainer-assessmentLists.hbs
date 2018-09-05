@@ -1,0 +1,14 @@
+<!-- partial that displays member assessment lists to a trainer -->
+
+{{#each memberAssessmentLists}}
+  
+<section class="ui stacked segment">
+    <h2 class="ui header">
+      {{title}}
+    </h2>
+      <a href="/trainer-assessment/viewAssessments/{{id}}"  class="ui icon button">
+        <i class="icon folder open"></i>
+      </a>
+</section>
+
+{{/each}}

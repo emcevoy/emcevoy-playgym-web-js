@@ -1,0 +1,14 @@
+<!-- Partial that displays the trainer menu -->
+
+<nav class="ui menu">
+  <header class="ui header item"> PlayGym WebJS </header>
+  <div class="right menu">
+    <a id="trainer-dashboard" class="item" href="/trainer-dashboard"> Trainer Dashboard </a>
+    <a id="trainer-memberList" class="item" href="/trainer-memberList"> View Members </a>
+    <a id="logout" class="item" href="/logout"> Logout </a>
+  </div>
+</nav>
+
+<script>
+  $("#{{id}}").addClass("active item");
+</script>

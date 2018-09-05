@@ -1,0 +1,11 @@
+<!-- view that displays assessment lists - title passed in from assessment controller - list assessment and add assessment partials added -->
+
+{{> menu}}
+
+<section class="ui center aligned middle aligned segment">
+  <h2 class="ui header">
+    {{assessment.title}}
+  </h2>
+  {{> list-assessments}}
+  {{> add-assessment}}
+</section>
