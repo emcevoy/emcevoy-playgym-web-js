@@ -1,10 +1,3 @@
-Name: Edward Mc Evoy
-
-Student Number: 10722103
-
-Date: 4/09/18
-
-
 Project Uploaded to Github - https://github.com/emcevoy/emcevoy-playgym-web-js
 
 
@@ -31,6 +24,4 @@ Password: secret
 ================================
 
 A user interface for gym members and trainers
-
-Built as a project for the ICT Skills Module
 
